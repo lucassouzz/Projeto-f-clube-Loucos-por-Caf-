@@ -1,0 +1,208 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	background-color: #efebe9;
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+header{
+	height:320px;
+	background-color: #efebe9;
+	font-family: arial, sans-serif;
+}
+
+header img{
+	float: left;
+	height:300px;
+	width:300px;
+	margin:10px;
+	
+}
+
+header h1 {
+	/*PROPRIEDADES*/
+	float: left;
+	margin: 50px 0 0 30px;
+	font-size: 60px;
+	color: black;
+	
+}
+
+section h2{
+	color:black
+	;
+}
+
+nav{
+	
+	width: 80%;
+	margin: 0px auto;
+	height: 55px;
+	background-color: #efebe9;
+	
+}
+
+nav a{
+	color:black;
+	text-decoration: none;
+	text-align: center
+	
+}
+
+.curiosidades{
+	text-align: center;
+}
+
+
+nav .opcao {
+	float: left;
+	width: 31.3%;
+	background-color: #d7ccc8;
+	padding: 10px 0;
+	margin: 0 1%;
+	font-size: 26px;
+	
+}
+
+nav .opcao:hover{
+	background-color: #795548;
+}
+
+section{
+	clear:both;
+
+	width:100%;
+	margin-top:100px;
+	background-color: #efebe9;
+	color: white;
+	
+	
+}
+footer{
+	background-color: #d7ccc8;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top:50px;
+	color: black
+}
+section #topo{
+	width:900px;
+	margin:0px auto;
+	height: 250px;
+	background-color: #efebe9;
+	
+}
+
+section {
+	font-size: 15px;
+	text-align: center
+}
+
+ h2
+{
+	color:black
+
+}
+
+
+.curiosidades{
+	margin-top:100px;
+	text-align: center;
+	display: flex;
+}
+
+table{
+	text-align: center;
+	margin: 50px auto;
+}
+h3{
+	text-align: center;
+	margin-top: 100px;
+	color: black;
+}
+p{
+	
+	margin: 5px 0 15px 0;
+	color: black;
+	font-size:20px;
+
+}
+.centro {
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+	margin-top:100px;
+		
+}
+
+.cafe{
+	height:300px;
+	width:300px;
+	margin:10px;
+}
+
+.direita{
+	height:300px;
+	width:300px;
+	background-color: #efebe9;
+	margin: 5px;
+}
+
+.esquerda{
+	height:300px;
+	width:300px;
+	background-color: #efebe9;
+	margin: 5px;
+}
+.medio{
+margin-top: 50px;	
+
+}
+
+.inscricao{
+	width: 300px;
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+.inscricao input, .inscricao textarea {
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+
+input[type="radio"]{
+	margin: 0px 0px 10px 57px;
+	width: 10%;
+	padding: 5px 0;
+}
+
+input[type="checkbox"]{
+	margin: 0px 0px 10px 57px;
+	width: 10%;
+	padding: 5px 0;
+}
+
+
+.inscricao textarea{
+	height: 100px;
+	resize: none;
+}
+.inscricao button{
+	width: 30%;
+	margin: 0 10%;
+	background-color: #bcaaa4;
+}
+
+
+
+tr:nth-child(even) {
+	background: #bcaaa4;
+	}
+tr:nth-child(odd) {
+	background:#a1887f ;
+	}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site Hora do Café">
+<meta name="keywords"
+	content="Café, fa clube café, cafeina, hora do café">
+<meta name="author" content="Lucas Souza">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hora do Café</title>
+<link rel="stylesheet" type="text/css" href="../../css/site.css">
+<script src="../../js/site.js"></script>
+</head>
+<header>
+	<img src="../../imgs/logo.png" alt="Logo do Hora do Cafe">
+	<h1>Hora do Café</h1>
+</header>
+<body>
+	<nav>
+		<a href="../../index.html"><div class="opcao">Inicio</div></a> <a
+			href="../../pages/site/curiosidade.html"><div class="opcao">Curiosidades</div></a>
+		<a href="../../pages/site/inscrever.html"><div class="opcao">Inscrever-se</div></a>
+	</nav>
+	<h3>Basta preencher seus dados para ser um inscrito no fã clube
+		Hora do Café, estavamos esperando por você.</h3>
+
+	<form name="frminscricao" method="post" action="#"
+		onsubmit="return validaForm()">
+		<fieldset class="inscricao">
+
+			<p>Participar:</p>
+			<input type="checkbox" name="participar" value="1">Quero
+			participar<br>
+
+			<legend>Dados pessoais:</legend>
+			<label for="nome">Nome: </label> <input type="text" name="txtnome"
+				id="nome" placeholder="Seu Nome">
+			<p>Gênero:</p>
+			<input type="radio" name="gender" value="masc"> Masculino<br>
+			<input type="radio" name="gender" value="fem"> Feminino<br>
+			<input type="radio" name="gender" value="outro"> Outro<br>
+			<label for="datanasc">Data de Nascimento: </label><input type="text"
+				name="textdatanasc" id="datanasc" placeholder="dd/mm/aaaa">
+			<label for="email">E-mail: </label><input type="email"
+				name="txtemail" id="email" placeholder="seuemail@gmail.com">
+			<label for="fone">Telefone: </label><input type="text" name="txtfone"
+				id="fone" placeholder="(DD)99999-9999">
+
+			<button type="reset">Limpar</button>
+			<button type="submit" id="enviar">Inscrever-se</button>
+		</fieldset>
+	</form>
+
+	<footer>Copyright &copy; Lucas de Souza 2019</footer>
+</body>
+</html>
